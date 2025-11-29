@@ -1,6 +1,6 @@
-# ZeroSight Grid
+# ZeroSight Conflict
 
-ZeroSight Grid is a 10x10 on-chain map game where every coordinate is encrypted end-to-end with Zama's FHE stack. Players join to receive random encrypted coordinates, move across the grid without exposing their path, and decrypt their exact location locally through the relayer-based flow.
+ZeroSight Conflict is a 10x10 on-chain map game where every coordinate is encrypted end-to-end with Zama's FHE stack. Players join to receive random encrypted coordinates, move across the grid without exposing their path, and decrypt their exact location locally through the relayer-based flow.
 
 ## Why it matters
 - Preserves location privacy on-chain by keeping all positions encrypted at rest and in transit.
