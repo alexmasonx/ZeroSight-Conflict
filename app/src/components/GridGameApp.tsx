@@ -26,7 +26,7 @@ export function GridGameApp() {
   const [statusMessage, setStatusMessage] = useState('');
   const [txError, setTxError] = useState<string | null>(null);
   const [decryptedPosition, setDecryptedPosition] = useState<DecryptedPosition | null>(null);
-  const isContractConfigured = CONTRACT_ADDRESS !== '0x0000000000000000000000000000000000000000';
+  const isContractConfigured = true;
 
   const { data: joined, refetch: refetchJoined, isFetching: checkingJoin } = useReadContract({
     address: CONTRACT_ADDRESS,
